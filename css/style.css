@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  cursor: pointer;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.header .container {
+  padding: 25px 30px;
+  max-width: 1365px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .container .burger_menu {
+  display: none;
+}
+.header .container .burger_menu a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+.header .container .burger_menu a .item {
+  width: 30px;
+  height: 4px;
+  background-color: #000000;
+}
+.header .container .shop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.header .container .shop a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #000000;
+}
+.header .container .login a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #000000;
+}
+
+.promo {
+  height: 504px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.promo .container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.promo .container h1 {
+  font-size: 43px;
+  color: #FFFFFF;
+}
+.promo .container p {
+  padding: 12px 0 28px;
+  font-size: 15px;
+  color: #FFFFFF;
+}
+.promo .container a {
+  font-size: 13px;
+  color: #FFFFFF;
+}
+
+.view .container {
+  padding: 80px 50px 100px;
+  text-align: center;
+}
+.view .container h2 {
+  font-size: 43px;
+  color: #000000;
+}
+.view .container p {
+  padding: 23px 0 26px;
+  font-size: 14px;
+  color: #A0A0A0;
+}
+.view .container a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #000000;
+}
+.view .container .view_box {
+  padding-top: 81px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  text-align: center;
+}
+.view .container .view_box1 img {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.view .container .view_box1 h3 {
+  padding: 48px 0 23px;
+  font-size: 27px;
+  color: #000000;
+}
+.view .container .view_box1 a {
+  font-size: 13px;
+  color: #000000;
+}
+
+.review .container {
+  text-align: center;
+}
+.review .container h4 {
+  padding: 16px 0 52px;
+  font-size: 33px;
+  color: #000000;
+}
+.review .container p {
+  padding-bottom: 24px;
+  font-size: 15px;
+  color: #A0A0A0;
+}
+.review .container .sqr_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding-bottom: 26px;
+}
+.review .container .sqr_box .sqr {
+  width: 7px;
+  height: 7px;
+  background-color: #000000;
+}
+.review .container .review_promo {
+  padding: 0 62px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+.review .container .review_promo_item img {
+  width: 100%;
+}
+.review .container .review_promo_item p {
+  padding-top: 23px;
+  text-align: left;
+}
+
+.promo_2 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 95px;
+}
+.promo_2 .container {
+  height: 504px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.promo_2 .container h4 {
+  font-size: 66px;
+  color: #FFFFFF;
+}
+.promo_2 .container p {
+  padding: 14px 0 30px;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.promo_2 .container a {
+  font-size: 13px;
+  color: #FFFFFF;
+}
+
+.adres .container {
+  padding: 116px 20px 45px;
+  text-align: center;
+}
+.adres .container h5 {
+  font-size: 34px;
+  color: #000000;
+}
+.adres .container p {
+  padding: 23px 0;
+  font-size: 16px;
+  color: #A0A0A0;
+}
+.adres .container img {
+  width: 100%;
+  height: 592px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.people .container {
+  padding: 38px 20px 125px;
+  text-align: center;
+}
+.people .container h5 {
+  font-size: 34px;
+  color: #000000;
+}
+.people .container p {
+  padding: 23px 0 79px;
+  font-size: 16px;
+  color: #A0A0A0;
+}
+.people .container .people_box {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 26px;
+}
+.people .container .people_box_item img {
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}

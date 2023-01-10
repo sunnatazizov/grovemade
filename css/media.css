@@ -1,0 +1,93 @@
+@media (max-width: 768px) {
+  .header .container .shop {
+    display: none;
+  }
+  .header .container .burger_menu {
+    display: flex;
+  }
+  .promo .container h1 {
+    font-size: 30px;
+  }
+  .promo .container p {
+    font-size: 15px;
+  }
+  .promo .container a {
+    font-size: 13px;
+  }
+  .view .container {
+    margin-bottom: 40px;
+  }
+  .view .container h2 {
+    font-size: 30px;
+  }
+  .view .container p {
+    font-size: 12px;
+  }
+  .view .container .view_box {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .view .container .view_box1 {
+    padding-top: 40px;
+  }
+  .view .container .view_box1 h3 {
+    font-size: 20px;
+  }
+  .view .container .view_box1 a {
+    font-size: 13px;
+  }
+  .review .container h4 {
+    font-size: 28px;
+  }
+  .review .container p {
+    font-size: 14px;
+  }
+  .review .container .review_promo {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+  .review .container .review_promo_item p {
+    font-size: 13px;
+  }
+  .promo_2 .container {
+    height: 400px;
+  }
+  .promo_2 .container h4 {
+    font-size: 40px;
+  }
+  .adres .container {
+    padding: 50px 20px;
+  }
+  .adres .container h2 {
+    font-size: 30px;
+  }
+  .adres .container p {
+    font-size: 12px;
+  }
+  .adres .container img {
+    height: 500px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 450px;
+  }
+  .people .container h5 {
+    font-size: 30px;
+  }
+  .people .container p {
+    font-size: 12px;
+  }
+  .people .container .people_box {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+}
+@media (max-width: 576px) {
+  .review .container .review_promo {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+  .people .container .people_box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

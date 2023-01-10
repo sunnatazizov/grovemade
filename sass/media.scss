@@ -1,0 +1,158 @@
+@media (max-width: 1200px) {}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {
+    .header {
+        .container {
+            .shop {
+                display: none;
+            }
+
+            .burger_menu {
+                display: flex;
+            }
+        }
+    }
+
+    .promo {
+        .container {
+            h1 {
+                font-size: 30px;
+            }
+
+            p {
+                font-size: 15px;
+            }
+
+            a {
+                font-size: 13px;
+            }
+        }
+    }
+
+    .view {
+        .container {
+            h2 {
+                font-size: 30px;
+            }
+
+            p {
+                font-size: 12px;
+            }
+
+            margin-bottom: 40px;
+
+
+
+            .view_box {
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(2, 1fr);
+                gap: 10px;
+
+                &1 {
+                    padding-top: 40px;
+
+                    h3 {
+                        font-size: 20px;
+                    }
+
+                    a {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+
+    .review {
+        .container {
+            h4 {
+                font-size: 28px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+
+
+            .review_promo {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 10px;
+
+                &_item {
+                    p {
+                        font-size: 13px;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .promo_2 {
+        .container {
+            height: 400px;
+
+            h4 {
+                font-size: 40px;
+            }
+        }
+    }
+
+    .adres {
+        .container {
+            padding: 50px 20px;
+
+            h2 {
+                font-size: 30px;
+            }
+
+            p {
+                font-size: 12px;
+            }
+
+            img {
+                height: 500px;
+                object-fit: cover;
+                height: 450px;
+            }
+        }
+    }
+
+    .people {
+        .container {
+            h5 {
+                font-size: 30px;
+            }
+
+            p {
+                font-size: 12px;
+            }
+
+            .people_box {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 10px;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .review {
+        .container {
+            .review_promo {
+                grid-template-columns: repeat(1, 1fr);
+                gap: 10px;
+            }
+        }
+    }
+    .people {
+        .container {
+            .people_box {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    }
+}
+
